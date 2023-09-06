@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PrimeraAplicacionWebAPIConMinimaIAPI.props" />
+</Project>
