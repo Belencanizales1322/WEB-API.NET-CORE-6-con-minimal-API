@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutenticacionJWTMinimalAPI", "AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI.csproj", "{BA3F4630-06C8-43B6-B8C1-EE1DAC768A01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3F4630-06C8-43B6-B8C1-EE1DAC768A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3F4630-06C8-43B6-B8C1-EE1DAC768A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3F4630-06C8-43B6-B8C1-EE1DAC768A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3F4630-06C8-43B6-B8C1-EE1DAC768A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E2E05F8-CBEA-429C-B697-0D2C994C0C4C}
+	EndGlobalSection
+EndGlobal
