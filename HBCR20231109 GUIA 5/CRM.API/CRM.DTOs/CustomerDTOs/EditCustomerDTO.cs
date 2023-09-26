@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CRM.DTOs.CustomerDTOs;
 
 namespace CRM.DTOs.CustomerDTOs
 {
-    public class EditCustomerDTO
+    public EditCustomerDTO(GetIdResultCutomerDTO getIdResultCutomerDTO)
     {
-
+        Id = GetIdResultCutomerDTO.Id;
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8xqveuO22raytOP5lG3Wmj8gjoaFuyKQoWKLNOhrSO3zJFNITsamoyikg63m8Gg5llvt1ffhQcDHMyP9HU+zTg==",
+  "dgSpecHash": "ynibNzhOBFugAwYzyqCWYwRJsUWmnHFjzdCBfQ4uNFLEv4MGRn6Etqq7gtrP6T9rgHr21YZLrt2GeNyTRB4S1w==",
   "success": true,
-  "projectFilePath": "E:\\PROYECTOS CON API original\\HBCR20230509 GUIA 3\\AutenticationCookieControladores\\AutenticationCookieControladores\\AutenticationCookieControladores.csproj",
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\PROYECTOS CON API original\\HBCR20230509 GUIA 3\\AutenticationCookieControladores\\AutenticationCookieControladores\\AutenticationCookieControladores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
