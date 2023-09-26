@@ -37,3 +37,13 @@ C:\Users\Admin\Desktop\PROYECTOS CON API original\HBCR20230609 GUIA 4\Autenticac
 C:\Users\Admin\Desktop\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Admin\Desktop\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Admin\Desktop\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.csproj.AssemblyReference.cache
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.AssemblyInfoInputs.cache
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.AssemblyInfo.cs
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.csproj.CoreCompileInputs.cache
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.dll
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\refint\AutenticacionJWTMinimalAPI.dll
+E:\PROYECTOS CON API original\HBCR20230609 GUIA 4\AutenticacionJWTMinimalAPI\AutenticacionJWTMinimalAPI\obj\Debug\net6.0\AutenticacionJWTMinimalAPI.pdb

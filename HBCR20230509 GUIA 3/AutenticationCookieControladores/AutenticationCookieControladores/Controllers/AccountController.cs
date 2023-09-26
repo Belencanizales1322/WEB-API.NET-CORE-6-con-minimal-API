@@ -1,29 +1,28 @@
-﻿using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace AutenticationCookieControladores.Controllers
+namespace AutenticacionCookiesControladores.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
-        // GET: api/<AccountController>
-        [HttpPost ("login")]
-        public IActionResult Login (string login, string password)
+        [HttpPost("login")]
+        public IActionResult Login(string login, string password)
         {
             if (login == "admin" && password == "12345")
             {
-                var claims = new List< Claim>
+                var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, login),
                 };
 
                 var claimsIdentity = new ClaimsIdentity(claims,
-                    CookieAuthenticationDefaults.AuthenticationScheme);
+                CookieAuthenticationDefaults.AuthenticationScheme);
 
                 var authProperties = new AuthenticationProperties
                 {
@@ -31,22 +30,22 @@ namespace AutenticationCookieControladores.Controllers
                 };
 
                 HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(claimsIdentity), authProperties);
+                    new ClaimsPrincipal(claimsIdentity));
 
-                return Ok("Inicio sesion correctamente.");
+                return Ok("Inicio sesión correctamente");
             }
             else
             {
-                return Unauthorized("Credenciales incorrectas.");
+                return Unauthorized("Credenciales incorrectas");
             }
-        }
 
-        // POST api/<AccountController>
-        [HttpPost("logout")]
-        public IActionResult Post()
+        }
+        [HttpPost("Logout")]
+        public IActionResult Logout([FromBody] string value)
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return Ok("Cerro sesion correctamente.");
+
+            return Ok("Cerró sesión correctamente");
         }
     }
 }

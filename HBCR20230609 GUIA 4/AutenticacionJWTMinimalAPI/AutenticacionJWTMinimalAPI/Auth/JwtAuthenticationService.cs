@@ -8,32 +8,32 @@ namespace AutenticacionJWTMinimalAPI.Auth
     public class JwtAuthenticationService
     {
         private readonly string _key;
-
         public JwtAuthenticationService(string key)
         {
             _key = key;
         }
 
-        public string Autehnticate(string UserName)
+        public string Authenticate(string username)
         {
+
             var tokenHandler = new JwtSecurityTokenHandler();
 
             var tokenKey = Encoding.ASCII.GetBytes(_key);
 
-            var tokenDescriptor = new SecurityTokenDescriptor
+            var tokkenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, UserName)
+                    new Claim(ClaimTypes.Name, username)
                 }),
 
                 Expires = DateTime.UtcNow.AddHours(8),
 
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey)
-                , SecurityAlgorithms.HmacSha256Signature)
+                , SecurityAlgorithms.HmacSha256)
             };
 
-            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var token = tokenHandler.CreateToken(tokkenDescriptor);
 
             return tokenHandler.WriteToken(token);
         }

@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace AutenticationCookieControladores.Controllers
+namespace AutenticacionCookiesControladores.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -12,7 +11,6 @@ namespace AutenticationCookieControladores.Controllers
     {
         static List<object> data = new List<object>();
 
-        // GET: api/<TestController>
         [HttpGet]
         [AllowAnonymous]
         public IEnumerable<object> Get()
@@ -20,21 +18,17 @@ namespace AutenticationCookieControladores.Controllers
             return data;
         }
 
-
-        // POST api/<TestController>
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Post(string name, string lastname)
+        public IActionResult Post(String name, String lastName)
         {
-            data.Add(new {name, lastname});
+            data.Add(new { name, lastName });
+
             return Ok();
         }
 
-
-
-        // DELETE api/<TestController>/5
-        [HttpDelete]
-        [Authorize]
+       [Authorize]
+       [HttpDelete]
         public IActionResult Delete()
         {
             data = new List<object>();
