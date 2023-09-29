@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8hsiuqaNdL1C0hAO7m+c3vehW90PvuHRi4NWrGNY9nethy2kK6xOiOE2wokfanzMNdBfgL7YO7s/k5qtr0KQYA==",
+  "dgSpecHash": "baFjW4z0W0frxMS2qX41wJJwQYLk+Ksmo9Sxt+pJ0F55Mqd2IycTRUr/g5XaDC8Z7Ont7JMczw1LotuC49jKNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\PROYECTOS CON API\\HBCR20230409 GUIA 2\\HBCR20230509E1\\HBCR20230509E1\\HBCR20230509E1.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\PROYECTOS CON API original\\HBCR20230409 GUIA 2\\HBCR20230509E1\\HBCR20230509E1\\HBCR20230509E1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

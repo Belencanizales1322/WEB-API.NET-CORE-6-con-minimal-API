@@ -9,21 +9,19 @@ namespace HBCR20230509E4.Controllers
     [ApiController]
     public class AulasController : ControllerBase
     {
-        static List<Aulas> aulas = new List<Aulas>();
-
+        static List<Aulas> aulas = new List<Aulas>
+    {
+        new Aulas { Id = 1, Grado = "Primero", Maestro = "Profesor1" },
+        new Aulas { Id = 2, Grado = "Segundo", Maestro = "Profesor2" },
+        new Aulas { Id = 3, Grado = "Tercero", Maestro = "Profesor3" }
+    };
         [HttpGet]
         public IEnumerable<Aulas> Get()
         {
             return aulas;
         }
 
-        // POST api/<ClientsController>
-        [HttpPost]
-        public IActionResult Post([FromBody] Aulas aula)
-        {
-            aulas.Add(aula);
-            return Ok();
-        }
+        
 
     }
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HBCR20230509E2.props" />
+</Project>

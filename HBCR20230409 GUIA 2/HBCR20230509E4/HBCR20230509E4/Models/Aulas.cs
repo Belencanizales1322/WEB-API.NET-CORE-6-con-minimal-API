@@ -2,5 +2,8 @@
 {
     public class Aulas
     {
+        public int Id { get; set; }
+        public string Grado { get; set; }
+        public string Maestro { get; set; }
     }
 }

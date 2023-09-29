@@ -18,16 +18,19 @@ app.UseHttpsRedirection();
 
 var categorias = new List<Categorias>();
 
+var categoria = new Categorias
+{
+    Id = 1,
+    Name = "industrial",
+    seccion = "herramientas"
+};
+categorias.Add(categoria);
+
 app.MapGet("/categorias", () =>
 {
     return categorias;
 });
 
-app.MapPost("/categorias", (Categorias categoria) =>
-{
-    categorias.Add(categoria);
-    return Results.Ok();
-});
 
 app.Run();
 
